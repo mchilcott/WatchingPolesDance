@@ -209,6 +209,50 @@
        r="16.804571"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.69635175,0,0,0.69635175,48.739769,63.403452)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10328"
+       id="radialGradient10322-9"
+       cx="86.430565"
+       cy="208.80559"
+       fx="86.430565"
+       fy="208.80559"
+       r="16.804571"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.12279392,0,0,0.12279392,76.132387,204.83616)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10328"
+       id="radialGradient1001"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.20151753,0,0,0.20151753,69.32825,202.19435)"
+       cx="86.430565"
+       cy="208.80559"
+       fx="86.430565"
+       fy="208.80559"
+       r="16.804571" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10328"
+       id="radialGradient10322-0"
+       cx="86.430565"
+       cy="208.80559"
+       fx="86.430565"
+       fy="208.80559"
+       r="16.804571"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.17340196,0,0,0.17340196,145.55816,194.5524)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10328"
+       id="radialGradient1027"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.21276377,0,0,0.21276377,142.62857,200.79102)"
+       cx="86.430565"
+       cy="208.80559"
+       fx="86.430565"
+       fy="208.80559"
+       r="16.804571" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -218,7 +262,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="442.62748"
+     inkscape:cx="297.27034"
      inkscape:cy="280.42955"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -237,7 +281,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -327,5 +371,29 @@
        style="opacity:1;fill:#a40000;fill-opacity:0.12345679;fill-rule:nonzero;stroke:none;stroke-width:0.93856925;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43640897;paint-order:markers fill stroke"
        d="m 246.88152,202.74317 a 185.87085,17.386905 0 0 1 -123.40929,4.41419 185.87085,17.386905 0 0 1 -123.40930485,-4.4085 v 5.81513 0.48318 5.81515 A 185.87084,17.386905 0 0 1 123.47223,210.4538 185.87084,17.386905 0 0 1 246.88152,214.868 v -5.82083 -0.48318 z"
        id="path9146" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient10322-9);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.12944221;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43640897;paint-order:markers fill stroke"
+       id="path831-7"
+       cx="86.745537"
+       cy="230.47623"
+       r="2.063499" />
+    <circle
+       r="3.3864155"
+       cy="244.27234"
+       cx="86.745544"
+       id="circle999"
+       style="opacity:1;fill:url(#radialGradient1001);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.21242809;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43640897;paint-order:markers fill stroke" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient10322-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.18279028;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43640897;paint-order:markers fill stroke"
+       id="path831-6"
+       cx="160.54538"
+       cy="230.7597"
+       r="2.9139454" />
+    <circle
+       r="3.5754037"
+       cy="245.21729"
+       cx="161.01785"
+       id="circle1025"
+       style="opacity:1;fill:url(#radialGradient1027);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22428322;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43640897;paint-order:markers fill stroke" />
   </g>
 </svg>
