@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="148.8078mm"
+   height="93.044106mm"
+   viewBox="0 0 148.8078 93.044106"
+   version="1.1"
+   id="svg23571"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="EPlaneFeshbach.svg">
+  <defs
+     id="defs23565">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7854"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7857"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="214.25988"
+     inkscape:cy="72.321863"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1375"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata23568">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.006818,-37.100307)">
+    <g
+       id="g23428"
+       transform="translate(21.645467,27.950112)"
+       style="fill:#75507b">
+      <path
+         style="fill:#75507b;fill-rule:evenodd;stroke:#75507b;stroke-width:0.49253231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 7.3613514,53.575235 H 134.69864"
+         id="path23416"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#75507b;fill-rule:evenodd;stroke:#75507b;stroke-width:0.49253231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 71.029994,14.734978 V 92.415504"
+         id="path23418"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87310481px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#75507b;fill-opacity:1;stroke:none;stroke-width:0.15391633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="73.987762"
+         y="11.126858"
+         id="text23422"><tspan
+           sodipodi:role="line"
+           id="tspan23420"
+           x="73.987762"
+           y="11.126858"
+           style="fill:#75507b;stroke-width:0.15391633px">Im E</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87310481px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#75507b;fill-opacity:1;stroke:none;stroke-width:0.15391633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="132.29239"
+         y="49.841122"
+         id="text23426"><tspan
+           sodipodi:role="line"
+           id="tspan23424"
+           x="132.29239"
+           y="49.841122"
+           style="fill:#75507b;stroke-width:0.15391633px">Re E</tspan></text>
+    </g>
+    <g
+       style="fill:#f57900"
+       transform="translate(39.256952,37.728909)"
+       id="g23442">
+      <path
+         inkscape:connector-curvature="0"
+         id="path23430"
+         d="M 7.3613514,53.575235 H 134.69864"
+         style="fill:#f57900;fill-rule:evenodd;stroke:#f57900;stroke-width:0.49253231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path23432"
+         d="M 71.029994,14.734978 V 92.415504"
+         style="fill:#f57900;fill-rule:evenodd;stroke:#f57900;stroke-width:0.49253231;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text23436"
+         y="11.126858"
+         x="73.987762"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87310481px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#f57900;fill-opacity:1;stroke:none;stroke-width:0.15391633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#f57900;stroke-width:0.15391633px"
+           y="11.126858"
+           x="73.987762"
+           id="tspan23434"
+           sodipodi:role="line">Im E</tspan></text>
+      <text
+         id="text23440"
+         y="49.841122"
+         x="132.29239"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.87310481px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#f57900;fill-opacity:1;stroke:none;stroke-width:0.15391633px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#f57900;stroke-width:0.15391633px"
+           y="49.841122"
+           x="132.29239"
+           id="tspan23438"
+           sodipodi:role="line">Re E</tspan></text>
+    </g>
+    <circle
+       style="opacity:1;fill:#fce94f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22083332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.91769547;paint-order:markers fill stroke"
+       id="path24203"
+       cx="103.0324"
+       cy="91.469742"
+       r="2.6726954" />
+  </g>
+</svg>

@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <title>M Chilcott - DWC 2020</title>
+    
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme">
+    
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+    <style>
+      .italics{
+         font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Title Slide -->
+	<section data-background-image="img/IMG_5958.JPG">
+          <p style="color:#EEE;  background-color:rgba(0,0,0,0.5)">Watching Poles Dance <br /> <span style="font-size:25pt">Resonance interactions in Atomic Scattering</span></p>
+          <div style="height: 400px"></div>
+          <p style="color:#EEE; font-size:20pt; background-color:rgba(0,0,0,0.5)">Matthew Chilcott, Kjaergaard Lab</p>
+        </section>
+
+        <!-- Background / Motivation -->
+	<section>
+          <p>Collisions</p>
+          <svg width="80%" style="margin-top:-50px;" data-src="img/Collision.svg"></svg>
+        </section>
+
+        <!-- Cold Scattering -->
+	<section>
+          <p>Scattering Cross-section: \(\sigma\)</p>
+          <img src="img/CrossSection.svg" style="margin-top:-50px;" />
+        </section>
+
+        <section>
+          <p>Resonances in Cross-section</p>
+          <img src="img/FResonance.svg" style="margin-top:-50px;" />
+        </section>
+        <!-- Atomic Resonances -->
+        <section>
+          <section>
+            <p>Inter-atomic potential defines scattering</p>
+            <svg data-src="img/ResPotentialsBare.svg"></svg>
+          </section>
+
+          <section>
+            <p>$l > 0$ barrier can produce shape resonance</p>
+            <svg data-src="img/ResPotentialsShape.svg"></svg>
+          </section>
+
+          <section>
+            <p>Closed channel can produce Feshbach Resonance</p>
+            <svg data-src="img/ResPotentialsFeshbach.svg"></svg>
+          </section>
+
+          <section>
+            <p>Closed channel can be tuned</p>
+            <img src="img/ResPotentialsTune.svg" />
+          </section>
+
+          <section>
+            <p>Interaction between shape and Feshbach resonance</p>
+            <svg data-src="img/ResPotentialsInteraction.svg"></svg>
+          </section>
+        </section>
+        <!-- Some Theory -->
+        <section>
+          <section data-auto-animate>
+            <p>
+              <span class="fragment" data-fragment-index="1">$U(t \to -\infty)$</span>$\left|\psi\right>$<span class="fragment" data-fragment-index="2">$ = \left|\psi_{\text{in}}\right>$</span> <br />
+              <span class="fragment" data-fragment-index="3">$U(t \to \infty)\left|\psi\right>$</span><span class="fragment" data-fragment-index="4">$ = \left|\psi_{\text{out}}\right>$</span>
+            </p>
+            <p class="fragment">\[ \left|\psi_{\text{out}}\right>  =  S\left|\psi_{\text{in}}\right>\]</p>
+            <p class="fragment"  style="margin-top:-40px;">The $S$ matrix</p>
+            
+          </section>
+
+          <section data-auto-animate>
+            <p>\[ \left|\psi_{\text{out}}\right>  =  S\left|\psi_{\text{in}}\right>\]</p>
+            <p style="margin-top:-40px;">The $S$ matrix</p>
+
+            <div class="fragment" style="margin-top:40px;" data-fragment-index="0">
+              <p>$\sigma$?</p>
+              <div class="r-stack">
+              <p style="margin-top:-40px;" class="fragment fade-in-then-out" data-fragment-index="1">\[1 - \left&lt;\psi_{\text{in}}\right| S \left|\psi_{\text{in}}\right>\]</p>
+              <p style="margin-top:-40px;" class="fragment fade-in-then-out" data-fragment-index="2">\[\left&lt;\psi_{\text{in}}\right| 1 - S \left|\psi_{\text{in}}\right>\]</p>
+              <p style="margin-top:-40px;" class="fragment fade-in-then-out" data-fragment-index="3">\[\sigma \propto \big|\left&lt;\psi_{\text{in}}\right| 1-S \left|\psi_{\text{in}}\right>\big|^2\]</p>
+              <p style="margin-top:-40px;" class="fragment fade-in" data-fragment-index="4">\[\sigma \propto \big|\left&lt;\psi_{\text{in}}\right| T \left|\psi_{\text{in}}\right>\big|^2\]</p>
+              </div>
+              </div>
+            <p class="fragment" data-fragment-index="4">The $T$ matrix: $T = 1-S$<p>
+          </section>
+
+
+        </section>
+        <!-- Our Experiment -->
+        <section>
+          <section data-transition="fade">
+            <img src="img/Exp1.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp2.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp3.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp4.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp5.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp6.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp7.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp8.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp9.svg" />
+          </section>
+          <section data-transition="fade">
+            <img src="img/Exp10.svg" />
+          </section>
+          <section data-transition="fade">
+            <svg data-src="img/Image87795.svg"></svg>
+          </section>
+
+          <section>
+            <p>Scattered Fraction</p>
+            <p>\[\frac{N_\text{sc}}{N_\text{tot}} = \frac{\alpha\sigma}{1 + \alpha\sigma}\]</p>
+            <p class="fragment">\[ \sigma(B, E) = \frac{2\pi\hbar}{mE}\sin^2\left(\delta_\text{bg}(E) +
+  \tan^{-1}\left[\frac{\Gamma(E) / 2}{B -
+      B_\text{res}(E)}\right]\right)\]</p>
+          </section>
+          <section>
+            <img src="img/FResonanceExplain.svg" />
+          </section>
+        </section>
+        <!-- Observations -->
+        <section>
+          <img src="img/3DScattering.svg" />
+        </section>
+        <section>
+        <section>
+          <p>The shape of the Feshbach resonance changes.</p>
+          <img src="img/Fano3D.svg" style="margin-bottom:0px;" />
+          <p style="margin-top:-80px;" class="fragment">\[\sigma \propto \frac{(q + \epsilon)^2}{1 - \epsilon^2}\]</p>
+        </section>
+
+        <section>
+          <p>The background phase-shift changes.</p>
+          <img src="img/Resonance1.svg" />
+        </section>
+        </section>
+        <section>
+        <section>
+          <p>The Feshbach resonance broadens</p>
+          <div class="r-stack">
+            <img src="img/Fano3D.svg" class="fragment fade-out" data-fragment-index="0"/>
+            <img src="img/Resonance2.svg" class="fragment" data-fragment-index="0"/>
+          </div>
+        </section>
+
+        <section>
+          <p>Broadening is due to enhancement</p>
+          <!--<img src="img/Wavefunctions.svg" width="520px" /> -->
+          <video src="img/WavefunctionESweep.mp4" width="800" onclick="this.paused ? this.play() : this.pause();"/>
+        </section>
+        </section>
+        <section>
+          <section>
+            <p>Position of the Feshbach Resonance moves with energy</p>
+            <svg data-src="img/FeshbachNormalTuning.svg"></svg>
+          </section>
+          
+          <section>
+            <p>The Feshbach resonance position kinks</p>
+            <div class="r-stack">
+              <img src="img/Resonance3.svg" class="fragment fade-out" data-fragment-index="0"/>
+              <img src="img/Resonance2.svg" class="fragment" data-fragment-index="0"/>
+            </div>
+          </section>
+
+          <section>
+            <p>What does this look like?</p>
+            <video src="img/AnimatedEnergySweepNoCentre.mp4" data-autoplay width="800"/>
+          </section>
+
+          <section>
+            <p>What does this look like?</p>
+            <video src="img/AnimatedEnergySweep.mp4" data-autoplay width="800"/>
+          </section>
+
+          <!-- Not sure we want this
+               <section>
+                 <p>Where do we measure the &quot;centre&quot;?</p>
+                 <video src="img/AnimatedQSweep.mp4" width="800" data-autoplay loop/>
+               </section>
+               -->
+
+          <section>
+            <svg data-src="img/Resonance3Step.svg"></svg>
+          </section>
+
+          <section>
+            <p>Multiple energy resonances at some fields</p>
+            <div class="r-stack">
+              <img class="fragment fade-out" data-fragment-index="0" src="img/TheoryCentre.svg" />
+              <img class="fragment" data-fragment-index="0" src="img/TheoryCentreWidth.svg" />
+            </div>
+          </section>
+
+          <section>
+            <video src="img/AnimatedBSweep.mp4" controls width="800"/>
+          </section>
+        </section>
+        <!-- Poles in scattering -->
+        <section>
+          <section data-auto-animate>
+            <p>Scattering: Solving the radial Schrodinger equation</p>
+            <p class="fragment">\[ \left[\frac{1}{2m} \frac{\text{d}}{\text{d} r} - V + E\right]\left|\psi \right&gt; = 0 \]</p>
+          </section>
+
+          <section data-auto-animate>
+            <p>\[ \left[\frac{1}{2m} \frac{\text{d}}{\text{d} r} - V + E\right]\left|\psi \right&gt; = 0 \]</p>
+            <p class="fragement">\[ \left[\underbrace{-\frac{1}{2m} \frac{\text{d}}{\text{d} r} + V}_{H} - E\right]\left|\psi \right&gt; = 0 \]</p>
+            <p class="fragment">\[
+              \left[H - E\right]\left&lt; x \big| G(E) \big| x' \right&gt; = \delta(x-x')
+              \]</p>
+          </section>
+
+
+          <section data-auto-animate>
+            <p>\[
+              \left[H - E\right]\left&lt; x \big| G(E) \big| x' \right&gt; = \delta(x-x')
+              \]</p>
+            <span class="fragment">\[
+              G(E) = (E - H)^{-1} = \sum_n \frac{\left|n \right&gt; \left&lt; n \right|}{E - E_n}
+              \]</span>
+          </section>
+          <!--
+          <section>
+            <p>Eigenstates produce poles</p>
+            \[\left| \Psi_Q \right> = \left(\sum_i \frac{\left|\phi_i\right>\left<\phi_i\right|}{E-\epsilon_i} \right)H_\text{QP}\left|\Psi_P\right>\]
+            \[S(k) = \frac{\mathcal{F}(-k)}{\mathcal{F}(k)}\]
+          </section>
+          -->
+          
+          <section>
+            <p>Poles produce resonances</p>
+            <svg data-src="img/EPoleRes.svg"></svg>
+          </section>
+
+          <section>
+            <p>Boundstate Poles</p>
+            <div class="r-stack">
+              <img class="fragment fade-out" data-fragment-index='1' src="img/EPlaneBound.svg" />
+              <img class="fragment fade-in-then-out" data-fragment-index='1' src="img/EPlaneBound1.svg" />
+              <img class="fragment" data-fragment-index='2' src="img/EPlaneBound2.svg" />
+            </div>
+          </section>
+
+          <section>
+            <p>Shape resonance</p>
+            <img src="img/EPoleShape.svg" />
+          </section>
+
+          <section>
+            <p>Multiple channels: Many Riemann Sheets</p>
+            <img src="img/RiemannX.svg" />
+          </section>
+          
+          <section>
+            <p>Interactions lead to imaginary offset</p>
+          </section>
+
+          <section>
+            <p></p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <p>A function is analytic if the derivative is well defined:
+              \[\frac{\text{d}}{\text{d}z} f(z)\]
+            </p>
+            <svg data-src="img/ZDerivative.svg"></svg>
+          </section>
+
+          <section>
+            <p>Identical over a line \(\iff\) Identical everywhere</p>
+            <svg width="400" data-src="img/Zcontinuation.svg"></svg>
+          </section>
+
+          <section>
+            <p>Pad&#233; Approximant</p>
+            <p>\[f(z) \approx f^{[N,M]}(z) = \frac{P(z)}{Q(z)}\]</p>
+            <p>\[ P(z) = \sum_{n=0}^{N} a_n z^n \qquad Q(z) = 1 + \sum_{n=1}^{M} b_n z^n\]</p>
+            <p class="fragment" style="font-size:14pt;">Pad&#233; approximation has the uncanny knack of picking the function <span class="italics">you had in mind</span> from among all the possibilites. <span class="italics">Except when it doesn't</span> - Numerical Recipies, Press et. al.</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <video src="img/AnalyticContinuation.mp4" width="600" onclick="this.paused ? this.play() : this.pause();"/>
+          </section>
+        </section>
+        
+      </div>
+    </div>
+    
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/loadSVG.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+      hash: true,
+      controls: false,
+      progress: false,
+      navigationMode: 'linear',
+      
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+      });
+      loadDataSrcSVG();
+    </script>
+  </body>
+</html>
