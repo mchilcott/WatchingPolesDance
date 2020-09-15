@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -44,33 +44,7 @@
           <p>Resonances in Cross-section</p>
           <img src="img/FResonance.svg" style="margin-top:-50px;" />
         </section>
-        <!-- Atomic Resonances -->
-        <section>
-          <section>
-            <p>Inter-atomic potential defines scattering</p>
-            <svg data-src="img/ResPotentialsBare.svg"></svg>
-          </section>
 
-          <section>
-            <p>$l > 0$ barrier can produce shape resonance</p>
-            <svg data-src="img/ResPotentialsShape.svg"></svg>
-          </section>
-
-          <section>
-            <p>Closed channel can produce Feshbach Resonance</p>
-            <svg data-src="img/ResPotentialsFeshbach.svg"></svg>
-          </section>
-
-          <section>
-            <p>Closed channel can be tuned</p>
-            <img src="img/ResPotentialsTune.svg" />
-          </section>
-
-          <section>
-            <p>Interaction between shape and Feshbach resonance</p>
-            <svg data-src="img/ResPotentialsInteraction.svg"></svg>
-          </section>
-        </section>
         <!-- Some Theory -->
         <section>
           <section data-auto-animate>
@@ -98,9 +72,42 @@
               </div>
             <p class="fragment" data-fragment-index="4">The $T$ matrix: $T = 1-S$<p>
           </section>
-
-
+          <section>
+            <p>\[\psi(r \to\infty) \sim e^{ikz} + f(\theta, \phi)\frac{e^{ikr}}{r}\]</p>
+            <p class="fragment">Radial Symmetry</p>
+            <p class="fragment">\[\psi(\mathbf{r}) = \psi(r, \theta) = \sum_{l=0}^\infty \frac{u_l(r)}{r} P_l(\cos\theta)\]</p>
+            <img class="fragment" src="img/Orbitals.svg" />
+          </section>
         </section>
+        
+        <!-- Atomic Resonances -->
+        <section>
+          <section>
+            <p>Inter-atomic potential defines scattering</p>
+            <svg data-src="img/ResPotentialsBare.svg"></svg>
+          </section>
+
+          <section>
+            <p>$l > 0$ barrier can produce shape resonance</p>
+            <svg data-src="img/ResPotentialsShape.svg"></svg>
+          </section>
+
+          <section>
+            <p>Closed channel can produce Feshbach Resonance</p>
+            <svg data-src="img/ResPotentialsFeshbach.svg"></svg>
+          </section>
+
+          <section>
+            <p>Closed channel can be tuned</p>
+            <img src="img/ResPotentialsTune.svg" />
+          </section>
+
+          <section>
+            <p>Interaction between shape and Feshbach resonance</p>
+            <svg data-src="img/ResPotentialsInteraction.svg"></svg>
+          </section>
+        </section>
+
         <!-- Our Experiment -->
         <section>
           <section data-transition="fade">
@@ -134,18 +141,27 @@
             <img src="img/Exp10.svg" />
           </section>
           <section data-transition="fade">
+            <img src="img/Exp11.svg" />
+          </section>
+          <section data-transition="fade">
+            <video src="img/Collision.mp4" data-autoplay></video>
+          </section>
+          <section data-transition="fade">
             <svg data-src="img/Image87795.svg"></svg>
           </section>
 
-          <section>
+          <section data-auto-animate>
             <p>Scattered Fraction</p>
             <p>\[\frac{N_\text{sc}}{N_\text{tot}} = \frac{\alpha\sigma}{1 + \alpha\sigma}\]</p>
-            <p class="fragment">\[ \sigma(B, E) = \frac{2\pi\hbar}{mE}\sin^2\left(\delta_\text{bg}(E) +
+            <p class="fragment" style="font-size:20pt;">\[ \sigma(B, E) = \frac{2\pi\hbar}{mE}\sin^2\left(\delta_\text{bg}(E) +
   \tan^{-1}\left[\frac{\Gamma(E) / 2}{B -
       B_\text{res}(E)}\right]\right)\]</p>
           </section>
-          <section>
-            <img src="img/FResonanceExplain.svg" />
+          <section data-auto-animate>
+            <p style="font-size:20pt;">\[ \sigma(B, E) = \frac{2\pi\hbar}{mE}\sin^2\left(\delta_\text{bg}(E) +
+  \tan^{-1}\left[\frac{\Gamma(E) / 2}{B -
+      B_\text{res}(E)}\right]\right)\]</p>
+            <img src="img/FResonanceExplain.svg" style="margin-top:-100px;" />
           </section>
         </section>
         <!-- Observations -->
@@ -176,7 +192,7 @@
         <section>
           <p>Broadening is due to enhancement</p>
           <!--<img src="img/Wavefunctions.svg" width="520px" /> -->
-          <video src="img/WavefunctionESweep.mp4" width="800" onclick="this.paused ? this.play() : this.pause();"/>
+          <video src="img/WavefunctionESweep.mp4" width="800" onclick="this.paused ? this.play() : this.pause();"></video>
         </section>
         </section>
         <section>
@@ -194,12 +210,12 @@
 
           <section>
             <p>What does this look like?</p>
-            <video src="img/AnimatedEnergySweepNoCentre.mp4" data-autoplay width="800"/>
+            <video src="img/AnimatedEnergySweepNoCentre.mp4" onclick="this.paused ? this.play() : this.pause();" width="800"></video>
           </section>
 
           <section>
             <p>What does this look like?</p>
-            <video src="img/AnimatedEnergySweep.mp4" data-autoplay width="800"/>
+            <video src="img/AnimatedEnergySweep.mp4" data-autoplay width="800"></video>
           </section>
 
           <!-- Not sure we want this
@@ -222,7 +238,7 @@
           </section>
 
           <section>
-            <video src="img/AnimatedBSweep.mp4" controls width="800"/>
+            <video src="img/AnimatedBSweep.mp4" controls width="800"></video>
           </section>
         </section>
         <!-- Poles in scattering -->
@@ -292,7 +308,7 @@
           </section>
           <section>
             <p>We scatter and calculate on the real line</p>
-            <img src="img/EPoleRes.svg" style="margin-top:-50px;" \>
+            <img src="img/EPoleRes.svg" style="margin-top:-50px;" />
           </section>
         </section>
         <section>
@@ -317,11 +333,11 @@
         </section>
         <section>
           <section>
-            <video src="img/AnalyticContinuation.mp4" width="600" onclick="this.paused ? this.play() : this.pause();"/>
+            <video src="img/AnalyticContinuation.mp4" width="600" onclick="this.paused ? this.play() : this.pause();"></video>
           </section>
 
           <section>
-            <video src="img/AnalyticContinuationWithFeshbach.mp4" width="600" onclick="this.paused ? this.play() : this.pause();"/>
+            <video src="img/AnalyticContinuationWithFeshbach.mp4" width="600" onclick="this.paused ? this.play() : this.pause();"></video>
           </section>
         </section>
 
