@@ -57,14 +57,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="111.47686"
-     inkscape:cy="72.321863"
+     inkscape:cx="41.523795"
+     inkscape:cy="173.84219"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg23571"
      showgrid="false"
      inkscape:window-width="2560"
-     inkscape:window-height="1375"
-     inkscape:window-x="0"
+     inkscape:window-height="1411"
+     inkscape:window-x="2560"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -127,9 +127,16 @@
     </g>
     <g
        style="fill:#f57900"
-       transform="translate(39.256952,37.728909)"
+       transform="translate(39.123317,27.973571)"
        id="g23442"
-       class="fragment fade-out">
+       class="fragment fade-out"
+       data-fragment-index="0">
+      <circle
+         style="opacity:1;fill:#fce94f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22083332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.91769547;paint-order:markers fill stroke"
+         id="path24203-9"
+         cx="63.75185"
+         cy="53.304424"
+         r="2.6726954" />
       <path
          inkscape:connector-curvature="0"
          id="path23430"
@@ -163,11 +170,31 @@
            id="tspan23438"
            sodipodi:role="line">Re E</tspan></text>
     </g>
-    <circle
-       style="opacity:1;fill:#fce94f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22083332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.91769547;paint-order:markers fill stroke"
-       id="path24203"
-       cx="103.0324"
-       cy="91.469742"
-       r="2.6726954" />
   </g>
+  <circle
+     style="opacity:1;fill:#fce94f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22083332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.91769547;paint-order:markers fill stroke"
+     id="path24203"
+     cx="73.632751"
+     cy="53.651104"
+     r="2.6726954"
+     class="fragment"
+     data-fragment-index="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="88.626167"
+     y="52.686409"
+     id="text846"
+     class="fragment"
+     data-fragment-index="1"><tspan
+       sodipodi:role="line"
+       id="tspan844"
+       x="88.626167"
+       y="52.686409"
+       style="font-size:3.88055563px;line-height:100%;text-align:center;text-anchor:middle;stroke-width:0.26458332px">Unstable</tspan><tspan
+       sodipodi:role="line"
+       x="88.626167"
+       y="58.86002"
+       style="font-size:3.88055563px;line-height:100%;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+       id="tspan860">Bound State</tspan></text>
 </svg>
