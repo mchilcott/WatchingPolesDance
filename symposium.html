@@ -71,10 +71,18 @@
         </section>
         <!-- Some Theory -->
         <section>
+        <section>
+          <p>The $S$ matrix</p>
           <p>\[ \left|\psi_{\text{out}}\right>  =  S\left|\psi_{\text{in}}\right>\]</p>
-          <p style="margin-top:-40px;">The $S$ matrix</p>
+          <p class="fragment">\[S(B,E)\]</p>
+          <p class="fragment">\[\sigma \propto \big(\left<\psi_{\text{in}}\right|1 - S(B,E)\left|\psi_{\text{in}}\right>\big)^2\]</p>
         </section>
-        
+
+        <section data-auto-animate>
+          <p>Poles in the $S$ matrix produce resonances</p>
+          <svg data-src="img/EPoleRes.svg"  style="margin-top:-50px;" ></svg>
+        </section>
+        </section>
         <!-- Atomic Resonances -->
         <section>
           <section>
@@ -148,7 +156,7 @@
           <section data-auto-animate>
             <p>Scattered Fraction</p>
             <p>\[\frac{N_\text{sc}}{N_\text{tot}} = \frac{\alpha\sigma}{1 + \alpha\sigma}\]</p>
-            <p class="fragment" style="font-size:20pt;">\[ \sigma(B, E) = \frac{2\pi\hbar}{mE}\sin^2\left(\delta_\text{bg}(E) +
+            <p class="fragment" style="font-size:20pt;">\[ \sigma_l(B, E) = \frac{4(2l+1)\pi\hbar}{mE}\sin^2\left(\delta_\text{bg}(E) +
   \tan^{-1}\left[\frac{\Gamma(E) / 2}{B -
       B_\text{res}(E)}\right]\right)\]</p>
           </section>
@@ -234,16 +242,12 @@
           </section>
         </section>
         -->
-        <!-- Poles in scattering -->
+
         <section>
-          
-          
-          <section data-auto-animate>
-            <p>Poles in the $S$ matrix produce resonances</p>
-            <svg data-src="img/EPoleRes.svg"  style="margin-top:-50px;" ></svg>
+          <section>
+            <p>We scatter on the positive real axis</p>
+            <img src="img/EPoleRes.svg" style="margin-top:-50px;" />
           </section>
-        </section>
-        <section>
           <section>
             <p>A function is analytic if the derivative is well defined:
               \[\frac{\text{d}}{\text{d}z} f(z)\]
@@ -258,10 +262,10 @@
         </section>
         <section>
           <section>
-            <video src="img/AnalyticContinuationBar.mp4" width="600" onclick="this.paused ? this.play() : this.pause();"></video>
+            <video src="img/AnalyticContinuationBar.mp4" onclick="this.paused ? this.play() : this.pause();"></video>
           </section>
           <section>
-            <video src="img/AnalyticContinuationWithFeshbach.mp4" onclick="this.paused ? this.play() : this.pause();"></video>
+            <video src="img/AnalyticContinuationWithFeshbach.mp4" width="150%" onclick="this.paused ? this.play() : this.pause();"></video>
           </section>
           <section>
             <video src="img/ShapeResMovement.mp4" onclick="this.paused ? this.play() : this.pause();"></video>
